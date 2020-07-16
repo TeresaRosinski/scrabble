@@ -25,7 +25,7 @@ namespace Scrabble.Tests
       WordCounter newWordCounter = new WordCounter(userInput);
       string result = newWordCounter.UserInput;
       Assert.AreEqual(userInput, result);
-
     }
+
   }
 }

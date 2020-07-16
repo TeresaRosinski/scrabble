@@ -27,5 +27,14 @@ namespace Scrabble.Tests
       Assert.AreEqual(userInput, result);
     }
 
+    [TestMethod]
+    public void WordCounterLetterCounter_AddsValueofLetters_Int()
+    {
+      string userInput = "Rabbit";
+      WordCounter newCounter = new WordCounter(userInput);
+      int valueResult = newCounter.LetterCounter(userInput); 
+      Assert.AreEqual(1, valueResult);
+    }
+
   }
 }

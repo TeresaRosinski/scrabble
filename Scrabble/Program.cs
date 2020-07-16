@@ -7,13 +7,17 @@ namespace Scrabble
   {
     public static void Main()//private = this function can't access it
     {
-      string newWord = "apple"; //instantiating a new word
-      WordCounter newCounter = new WordCounter();  //instantiating WordCounter
-      newCounter.AddWordToList(newWord); //Adding words to list
+
+      string userInput = "apple"; //instantiating a new word
+      WordCounter newCounter = new WordCounter(userInput);  //instantiating WordCounter
+      newCounter.AddWordToList(userInput); //Adding words to list
+      newCounter.LetterCounter();
       newCounter.PrintWords();
 
-      userWord = Console.ReadLine(); 
-      
+      // string userWord = Console.ReadLine(); 
+      // newCounter.AddWordToList(userWord);
+      // newCounter.PrintWords(); 
+
     }
   }
 }

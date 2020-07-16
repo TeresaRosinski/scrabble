@@ -20,7 +20,7 @@
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program instantiates Word object class** |  | string |
+| **Program creates instance of WordCounter class** | N/A | string |
   **Program accepts user input as new object** | "Rabbit | _____ |
   **Program separates string into letters** | "Rabbit" | "R", "A", "B", "B", "I", "T" |
 | **Program awards 1 pt for the following letters AEIOULNRST** | "Rabbit" | 4 |

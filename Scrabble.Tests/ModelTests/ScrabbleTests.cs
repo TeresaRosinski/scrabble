@@ -32,8 +32,8 @@ namespace Scrabble.Tests
     {
       string userInput = "Rabbit";
       WordCounter newCounter = new WordCounter(userInput);
-      int valueResult = newCounter.LetterCounter(userInput); 
-      Assert.AreEqual(1, valueResult);
+      int valueResult = newCounter.LetterCounter(); 
+      Assert.AreEqual(0, valueResult);
     }
 
   }
